@@ -1,0 +1,197 @@
+body{
+    overflow: hidden;
+    background: url(images/stars-ga42d8bb72_1920.jpg);
+     background-repeat: no-repeat;
+     background-size: 100em;
+    background-position: center;
+    background-attachment: scroll;
+   
+    
+     opacity:2;
+     
+    
+}
+#d1 li{
+    border-radius: 30px;
+    width: 60px ;
+    height: 60px;
+    position: absolute;
+    border: 2px solid red;
+    list-style-type: none ; 
+    bottom: 0;
+    
+}
+    
+
+
+
+h1{
+    color: rgba(198, 219, 6, 0.904);
+    position: absolute;
+    left:35vw;
+    background-color: black;
+
+    width: 355px;
+    padding: 10px;
+    
+}
+#img1{
+    position: absolute;
+    right: 0px;
+    top:50px;
+    width: 100px;
+    margin: 0px 40px 0px 0px;
+    animation: img1 7s linear infinite;
+    animation-delay: 1s;
+    
+}
+@keyframes img1{
+    100%{ 
+        transform: scale(2) rotatey(1000deg);
+        top:90vw;
+        opacity: 0.5;
+    }
+}
+
+
+#img2{
+    position: absolute;
+    bottom: 0px;
+    left: 200px;
+    width: 100px;
+    margin: 0px 50px 0px 0px;
+    animation: img2  6s linear infinite;
+    animation-delay: 5s;
+}
+@keyframes img2{
+    100%{ 
+        transform: scale(3) rotatey(1000deg);
+        bottom:90vh;
+    }
+}
+
+#img3{
+    position: absolute;
+    bottom: 300px;
+    left: 600px;
+    width: 100px;
+    margin: 0px 50px 0px 0px;
+    animation: img3 15s linear infinite ;
+    animation-delay: 4s;
+}
+@keyframes img3{
+   50% 
+   { transform: scale(2) rotatey(1000deg);
+    top:80vh;
+    opacity: 0.7;
+}
+
+
+}
+
+
+#img4{
+    
+    position: absolute;
+    right: 150px;
+    bottom: 0px;
+    width: 100px;
+    margin: 0px 45px 0px 0px;
+    animation-delay: 6s;
+
+}
+#img5{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    line-height:50vh;
+    width: 100px;
+    margin: 0px 45px 0px 0px;
+    animation-delay: 7s;
+}
+img{
+    border: 5px solid;
+    border-radius: 20px;
+    animation: img 15s ease-in-out infinite;
+
+}
+
+@keyframes img{
+    0%{ transform: scale(0)rotatey(0deg); 
+      opacity: 1;
+    }
+
+      100%{
+         transform: scale(3) rotatey(1000deg);
+         opacity:0;
+      }
+}
+#circle li:nth-child(1){
+    background-image: url(images/1675509126821.jpg);
+    background-size:60px;
+    background-repeat: no-repeat;
+    box-shadow: -5px -5px 13px yellow,5px 5px  13px rgb(236, 11, 142);
+    position:absolute;
+    animation-delay: 10s;
+
+   
+
+}
+
+#circle li:nth-child(2) { 
+ left: 25vw;
+ background-image: url(images/1674897399707.jpg);
+ background-size:60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: -3px -3px 10px rgba(235, 13, 31, 0.856),3px 3px  10px rgb(17, 247, 247);
+    animation-delay: 3s;
+ 
+
+}
+
+#circle li:nth-child(3){
+    right:7vw ;
+    background-image: url(images/1675509126817.jpg);
+    background-size: 60px;
+    background-position: center;
+    box-shadow: -3px -3px 10px rgba(247, 12, 235, 0.856),3px 3px  10px rgb(15, 19, 236);
+    animation-delay: 7s;
+
+}
+
+#circle li:nth-child(4){
+    right:25vw ;
+    background-image: url(images/1675509126829.jpg);
+    background-size: 60px;
+    background-position: center;
+    box-shadow: -5px -5px 13px rgba(8, 238, 39, 0.856),5px 5px  13px rgb(211, 124, 9);
+    animation-delay: 12s;
+
+
+}
+#circle li:nth-child(5){
+    right:50vw ;
+    background-image: url(images/1675509126821.jpg);
+    background-size: 60px;
+    background-position: center;
+    box-shadow: -5px -5px 13px rgba(116, 6, 160, 0.856),5px 5px  13px rgb(213, 236, 7);
+
+}
+#circle li{
+    animation: circle 15s linear infinite;
+    bottom:100vh;
+        
+}
+@keyframes circle{
+    0% {
+        transform: scale(0) rotate(0deg);
+        bottom:0;
+        opacity: 1;
+
+    }
+    100%{
+        transform:scale(4) rotate(1000deg);
+    }
+
+}
